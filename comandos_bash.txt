@@ -1,3 +1,5 @@
-ls -> lista os arquivos
-cd -> move entre diretorios
-pwd -> mostra o proprio diretorio.
+ls -> lista os arquivos,
+cd -> move entre diretorios,
+pwd -> mostra o proprio diretorio,
+cat -> exibe conteudo do arquivo,
+re -> remove arquivo do diretorio.
