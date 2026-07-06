@@ -1,4 +1,5 @@
 git init . -> cria/transfroma a pasta atual em um repositorio
 git status -> mostra o status do trabalho(de cada arq)
 git add nome_do_arquivo -> adiciona arquivo no git(podendo ser commitado)
-git commit -m "msg" -> faz commit do seu arquivo, que estava para ser commitado.
+git commit -m "msg" -> faz commit do seu arquivo, que estava para ser commitado
+git log -> mostra todo o historico de commitado
