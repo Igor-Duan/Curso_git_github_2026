@@ -4,3 +4,27 @@ pwd -> mostra o proprio diretorio
 cat -> exibe conteudo do arquivo
 rm -> remove arquivo do diretorio
 rm -rf -> remove todos os diretorios de forma recursiva e forçada.
+
+
+# $ $ FLUXO DE TRABALHO
+
+
+1- criar o diretorio git/do projeto
+
+2- iniciar o git dentro do diretorio (git 
+ init.)
+
+3- edita ou cria arquivos
+
+4- git status (analisar o status do arquivo main)
+
+5- git add nome_do_arquivo
+
+6- git status 
+
+7- git commit -m "Mensagem do arq"
+
+8-git status
+
+9 - RECOMECA NO PASSO 3.
+
