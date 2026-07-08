@@ -3,3 +3,8 @@ esse arquivo contem comandos adicionais de git
 primeiro comando
 
 segundo comando
+
+
+
+#comandos mais genericos:
+- comandos estranhos
