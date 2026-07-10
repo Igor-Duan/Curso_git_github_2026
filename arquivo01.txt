@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Esse curso e bem bom!, eu veria de novo!
+=======
+Esse curso e bem bom!
+>>>>>>> igor
