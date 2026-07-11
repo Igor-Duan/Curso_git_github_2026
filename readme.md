@@ -8,6 +8,13 @@ confirq tudo o que tem no meu insta. E Gratis!, segue o link:
 
 ("instagram_igor"): https://instagram.com/negaode1cm
 
+alem do meu insta tenho tmb um github kkk, oia ai:
+
+("github_igor"):
+https://github.com/Igor-Duan/Curso_git_github_2026/tree/Develop
+
+
+
 
 ##Fluxo De Trabalho Git Local:
 
