@@ -4,6 +4,9 @@ Um curso para iniciantes aprenderem a trabalhar com versionamento de codigo e re
 
 alem disso vamos trabalhar com gitflow!, ao final do curso claro.
 
+confirq tudo o que tem no meu insta. E Gratis!, segue o link:
+
+("instagram_igor"): https://instagram.com/negaode1cm
 
 
 ##Fluxo De Trabalho Git Local:
