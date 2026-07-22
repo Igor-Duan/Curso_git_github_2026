@@ -1,0 +1,45 @@
+DROP TABLE IF EXISTS vendas;
+
+CREATE TABLE vendas (
+    id_venda INTEGER PRIMARY KEY,
+    data TEXT,
+    cliente TEXT,
+    cidade TEXT,
+    vendedor TEXT,
+    produto TEXT,
+    categoria TEXT,
+    quantidade INTEGER,
+    preco_unitario REAL,
+    desconto REAL
+);
+
+INSERT INTO vendas VALUES
+(1,'2025-01-02','Ana','Natal','Lucas','Notebook','EletrÃ´nicos',1,3500,0.10),
+(2,'2025-01-02','Bruno','Recife','Maria','Mouse','PerifÃ©ricos',2,80,0),
+(3,'2025-01-03','Carlos','Natal','Lucas','Monitor','EletrÃ´nicos',1,1200,0.05),
+(4,'2025-01-04','Ana','Natal','Pedro','Teclado','PerifÃ©ricos',1,200,0),
+(5,'2025-01-05','Daniel','JoÃ£o Pessoa','Maria','Notebook','EletrÃ´nicos',2,3400,0.15),
+(6,'2025-01-06','Bruno','Recife','Lucas','Mouse','PerifÃ©ricos',3,75,0),
+(7,'2025-01-07','Eduarda','Fortaleza','Pedro','Headset','PerifÃ©ricos',2,300,0.10),
+(8,'2025-01-08','Carlos','Natal','Maria','Notebook','EletrÃ´nicos',1,3600,0),
+(9,'2025-01-09','Fernanda','Natal','Lucas','Monitor','EletrÃ´nicos',2,1300,0.05),
+(10,'2025-01-10','Ana','Natal','Pedro','Mouse','PerifÃ©ricos',4,90,0),
+(11,'2025-01-11','Gabriel','Recife','Maria','Notebook','EletrÃ´nicos',1,3700,0.08),
+(12,'2025-01-12','Daniel','JoÃ£o Pessoa','Lucas','Teclado','PerifÃ©ricos',2,220,0),
+(13,'2025-01-13','Fernanda','Natal','Pedro','Notebook','EletrÃ´nicos',1,3550,0.12),
+(14,'2025-01-14','Eduarda','Fortaleza','Lucas','Mouse','PerifÃ©ricos',5,85,0),
+(15,'2025-01-15','Carlos','Natal','Maria','Monitor','EletrÃ´nicos',1,1250,0.03);
+
+
+
+--select vendedor,  sum(preco_unitario * quantidade) as total from vendas
+--GROUP BY vendedor;
+
+
+
+SELECT vendedor, sum(quantidade * preco_unitario) * (1 - desconto) as total,cidade, avg(quantidade * preco_unitario) * (1 - desconto) as media_pr_cidade FROM vendas
+GROUP BY vendedor, cidade
+order by total desc;
+
+ 
+

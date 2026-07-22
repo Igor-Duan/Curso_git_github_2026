@@ -1,0 +1,16 @@
+﻿id_venda;data;cliente;cidade;vendedor;produto;categoria;quantidade;preco_unitario;desconto;Total_Venda;Total_Liquido;Categoria_Vendedor
+1;2025-01-02;Ana;Natal;Lucas;Notebook;Eletrônicos;1;3500;0.1;3500;3150.0;Bronze
+2;2025-01-02;Bruno;Recife;Maria;Mouse;Periféricos;2;80;0.0;160;160.0;Bronze
+3;2025-01-03;Carlos;Natal;Lucas;Monitor;Eletrônicos;1;1200;0.05;1200;1140.0;Bronze
+4;2025-01-04;Ana;Natal;Pedro;Teclado;Periféricos;1;200;0.0;200;200.0;Bronze
+5;2025-01-05;Daniel;João Pessoa;Maria;Notebook;Eletrônicos;2;3400;0.15;6800;5780.0;Prata
+6;2025-01-06;Bruno;Recife;Lucas;Mouse;Periféricos;3;75;0.0;225;225.0;Bronze
+7;2025-01-07;Eduarda;Fortaleza;Pedro;Headset;Periféricos;2;300;0.1;600;540.0;Bronze
+8;2025-01-08;Carlos;Natal;Maria;Notebook;Eletrônicos;1;3600;0.0;3600;3600.0;Bronze
+9;2025-01-09;Fernanda;Natal;Lucas;Monitor;Eletrônicos;2;1300;0.05;2600;2470.0;Bronze
+10;2025-01-10;Ana;Natal;Pedro;Mouse;Periféricos;4;90;0.0;360;360.0;Bronze
+11;2025-01-11;Gabriel;Recife;Maria;Notebook;Eletrônicos;1;3700;0.08;3700;3404.0;Bronze
+12;2025-01-12;Daniel;João Pessoa;Lucas;Teclado;Periféricos;2;220;0.0;440;440.0;Bronze
+13;2025-01-13;Fernanda;Natal;Pedro;Notebook;Eletrônicos;1;3550;0.12;3550;3124.0;Bronze
+14;2025-01-14;Eduarda;Fortaleza;Lucas;Mouse;Periféricos;5;85;0.0;425;425.0;Bronze
+15;2025-01-15;Carlos;Natal;Maria;Monitor;Eletrônicos;1;1250;0.03;1250;1212.5;Bronze
